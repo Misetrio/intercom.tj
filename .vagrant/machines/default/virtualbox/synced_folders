@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"/home/nuriddin/intercom/intercom.tj","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/nuriddin/intercom/intercom.tj","disabled":false,"__vagrantfile":true}}}

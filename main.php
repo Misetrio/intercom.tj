@@ -5,7 +5,7 @@
             <div class="row-fluid">
                 <div class="span12">
 
-                    <div id="divLogo" class="pull-left" style="width: 400px" >
+                    <div id="divLogo" class="pull-left" style="width: 250px" >
                         <a href="index.php" id="divSiteTitle"><img src="images/logo.png" /></a><br />
                     </div>
                     <!--div class="pull-left">

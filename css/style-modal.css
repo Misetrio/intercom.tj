@@ -139,18 +139,56 @@ background-color: rgba(252, 20, 0, 0.8);
 margin: 0;
 padding: 10px;
 }
-/* планшет */
+
+
+@media only screen and (min-width: 959px) {
+    .mediaPlayer {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    .mediaPlayer {
+        width: 270px;
+    }
+    #divSiteTitle img {
+        width:240px;
+        max-width: none;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	.popup {
-		width: 95%;
+	.mediaPlayer {
+		width: 650px;
 	}
+    #divSiteTitle img {
+        width:730px;
+        max-width: none;
+    }
 }
-/* смарт */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-	.popup {
-		width:85%;
-	}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+    .mediaPlayer {
+        width: 320px;
+    }
+
+    #divSiteTitle img {
+        width: 330px;
+        max-width: none;
+    }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 412px) {
+    .mediaPlayer {
+        width: 300px;
+    }
+
+    #divSiteTitle img {
+        width: 285px;
+        max-width: none;
+    }
+}
+
 /* изображения внутри окна */
 .popup img {
 display: block;
@@ -160,7 +198,7 @@ height: auto;
 }
 /* миниатюры слева/справа */
 .pic-left, 
-.pic-right {
+*.pic-right {
     width: 25%;
     height: auto;
 }
@@ -175,17 +213,17 @@ height: auto;
 /* встроенные элементы м-медиа, фреймы */
 /* адаптивный блок видео */
 .video { 
-position: relative; 
-padding-bottom: 56.25%; 
+position: absolute;
+padding-bottom: 56.25%;
 height: 0; 
 overflow:hidden; 
 } 
 .video iframe, 
 .video object, 
 .video embed {
-position: absolute; 
-top: 0; 
-left: 0; 
+position: absolute;
+top: 0;
+left: 0;
 width: 100%;
 height: 100%; 
 }
@@ -193,3 +231,14 @@ height: 100%;
     display:inline-block !important;
     width:400px;
 }
+.row-fluid{width: 100%}
+#footerArea1{
+    width: 33%;
+}
+#footerArea2{
+width: 33%;
+}
+#footerArea3{
+    width: 33%;
+}
+

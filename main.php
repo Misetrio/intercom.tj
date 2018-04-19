@@ -40,7 +40,7 @@
 									<li><a href="additional.php">Дополнительные</a></li>
 									</ul>
                                 </li>
-                                <li class="dropdown"><a href="">Контакты</a></li>
+                                <li class="dropdown"><a href="contact.php">Контакты</a></li>
                                 <!-- Старый вход в кабинет<li class="dropdown"><a href="http://cabinet.intercom.tj/cgi-bin/utm5/aaa5">Кабинет</a></li>-->
 				<li class="dropdown"><a href="balance.php">Кабинет</a></li>
                                 <ul class="nav nav-pills ddmenu">

@@ -144,6 +144,8 @@ padding: 10px;
 @media only screen and (min-width: 959px) {
     .mediaPlayer {
         width: 450px;
+
+
     }
 }
 
@@ -181,6 +183,10 @@ padding: 10px;
 @media only screen and (min-width: 360px) and (max-width: 412px) {
     .mediaPlayer {
         width: 300px;
+    }
+    #footerArea1 p{
+
+
     }
 
     #divSiteTitle img {
@@ -231,14 +237,5 @@ height: 100%;
     display:inline-block !important;
     width:400px;
 }
-.row-fluid{width: 100%}
-#footerArea1{
-    width: 33%;
-}
-#footerArea2{
-width: 33%;
-}
-#footerArea3{
-    width: 33%;
-}
+
 

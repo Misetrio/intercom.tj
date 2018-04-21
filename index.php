@@ -189,6 +189,8 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
+
+<!--
                     <video class="mediaPlayer" controls="controls" poster="images/reklama.jpg">
                         <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
                         Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
@@ -199,6 +201,15 @@
                         <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
                         <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
                         <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
+                    </video>-->
+                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                           poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="video/intercom.mp4" type='video/mp4'>
+                        <source src="MY_VIDEO.webm" type='video/webm'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
                     </video>
                     <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">

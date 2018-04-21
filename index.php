@@ -190,6 +190,7 @@
                     <h2>Отзывы</h2>
                     <video class="mediaPlayer" controls="controls" poster="images/reklama.jpg">
                         <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                        <source src="video/intercom.flv" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
                         Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
                             href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
                             target="_blank">Google Chrome</a>

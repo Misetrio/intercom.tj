@@ -1,5 +1,6 @@
 ﻿<html>
 <head>
+
     <?php
 
     require_once("header.php"); ?>
@@ -191,7 +192,8 @@
                     <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
                         <source src="video/intercom.mp4" type='video/mp4'>
-                        <source src="video/intercom.ogv" type='video/ogg'>
+                        <source src="video/intercom.flv" type='video/flv'>
+                        <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading to a web browser that
                             <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -226,5 +228,4 @@
 <?php require_once("footer.php"); ?>
 
 </body>
-<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 </html>

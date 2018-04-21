@@ -226,6 +226,7 @@
 </div>
 
 <?php require_once("footer.php"); ?>
+<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 
 </body>
 </html>

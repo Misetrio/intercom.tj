@@ -203,7 +203,7 @@
                         <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
                     </video>-->
                     <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-                           poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                           poster="images/reklama.jpg" data-setup="{}">
                         <source src="video/intercom.mp4" type='video/mp4'>
                         <source src="MY_VIDEO.webm" type='video/webm'>
                         <p class="vjs-no-js">

@@ -189,6 +189,7 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
+
                     <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
                         <source src="http//intercom.tj/video/intercom.mp4" type='video/mp4'>
@@ -197,6 +198,7 @@
                             <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                         </p>
                     </video>
+
 
                         <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
                         <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">

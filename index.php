@@ -5,6 +5,41 @@
 
     require_once("header.php"); ?>
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter47360869 = new Ya.Metrika2({
+                        id: 47360869,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true
+                    });
+                } catch (e) {
+                }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/47360869" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body id="pageBody">
 
@@ -154,45 +189,19 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
-
-<!--
-                    <video class="mediaPlayer" controls="controls" poster="images/reklama.jpg">
-                        <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                        Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
-                            href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
-                            target="_blank">Google Chrome</a>
-                        или <a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla FireFox</a> для
-                        просмотра этого видео.<br>
-                        <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
-                        <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
-                        <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
-                    </video>-->
                     <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
-                        <source src="../video/intercom.mp4" type='video/mp4'>
+                        <source src="http//intercom.tj/video/intercom.mp4" type='video/mp4'>
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading to a web browser that
                             <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                         </p>
                     </video>
-                    <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
-                           poster="images/reklama.jpg" data-setup="{}">
-                        <source src="video/intercom.mp4" type='video/mp4'>
-                        <source src="video/intercom.flv" type='video/flv'>
-                        <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                        <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a web browser that
-                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                        </p>
-                        Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
-                            href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
-                            target="_blank">Google Chrome</a>
-                        или <a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla FireFox</a> для
-                        просмотра этого видео.<br>
+
                         <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
                         <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
                         <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
-                    </video> -->
+                    </video>
                 </div>
 
                 <!--Акция на Навруз закомментирована<div class="lead">
@@ -212,7 +221,6 @@
 </div>
 
 <?php require_once("footer.php"); ?>
-
 
 </body>
 </html>

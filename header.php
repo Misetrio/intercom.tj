@@ -2,30 +2,12 @@
 <title>Intercom</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Intercom">
-<meta name="author" content="Munira Husinova">
 <meta http-equiv='X-UA-Compatible' content='IE=Edge' />
 
 <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
 
 <!-- If you'd like to support IE8 -->
 <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-
-<link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-<!-- Icons -->
-<link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
-<link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
-<!--[if lt IE 8]>
-	<link href="scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
-	<link href="scripts/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
-<![endif]-->
-<link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css">
-<!--[if IE 7]>
-	<link rel="stylesheet" href="scripts/fontawesome/css/font-awesome-ie7.min.css">
-<![endif]-->
-
-<link href="scripts/carousel/style.css" rel="stylesheet" type="text/css" />
 
 <!--link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">

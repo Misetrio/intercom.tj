@@ -1,7 +1,5 @@
 <meta charset="utf-8">
 <title>Intercom</title>
-<meta name="description" content="Intercom">
-<meta http-equiv='X-UA-Compatible' content='IE=Edge' />
 
 <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
 

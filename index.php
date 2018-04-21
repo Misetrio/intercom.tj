@@ -188,9 +188,14 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
-                    <video class="mediaPlayer" controls="controls" poster="images/reklama.jpg">
-                        <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                        <source src="video/intercom.flv" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                           poster="images/reklama.jpg" data-setup="{}">
+                        <source src="video/intercom.mp4" type='video/mp4'>
+                        <source src="video/intercom.ogv" type='video/ogg'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
                         Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
                             href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
                             target="_blank">Google Chrome</a>
@@ -221,4 +226,5 @@
 <?php require_once("footer.php"); ?>
 
 </body>
+<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 </html>

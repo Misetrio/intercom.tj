@@ -1,6 +1,5 @@
 <meta charset="utf-8">
 <title>Intercom</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Intercom">
 <meta http-equiv='X-UA-Compatible' content='IE=Edge' />
 
@@ -19,36 +18,3 @@
 <!-- стили демо страницы -->
 
 <!-- стили модального окна -->
-<link rel="stylesheet" href="css/style-modal.css" rel="stylesheet">
-
-<link href="styles/custom.css" rel="stylesheet" type="text/css" />
-
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter47360869 = new Ya.Metrika2({
-                    id:47360869,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/tag.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks2");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/47360869" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->

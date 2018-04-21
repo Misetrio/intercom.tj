@@ -189,10 +189,16 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
-                    <video id="my-video" class="mediaPlayer" controls preload="auto" width="640" height="264"
-                           poster="images/reklama.jpg" data-setup="{}">
+                    <video class="mediaPlayer" controls="controls" poster="images/reklama.jpg">
                         <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
-
+                        Ваш браузер не поддерживает проигрывние видео. Установите браузер <a
+                            href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
+                            target="_blank">Google Chrome</a>
+                        или <a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla FireFox</a> для
+                        просмотра этого видео.<br>
+                        <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
+                        <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
+                        <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
                     </video>
                     <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
@@ -207,11 +213,11 @@
                             href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
                             target="_blank">Google Chrome</a>
                         или <a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla FireFox</a> для
-                        просмотра этого видео.<br> -->
+                        просмотра этого видео.<br>
                         <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
                         <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
                         <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
-                    </video>
+                    </video> -->
                 </div>
 
                 <!--Акция на Навруз закомментирована<div class="lead">

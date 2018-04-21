@@ -6,10 +6,10 @@
 <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
+<!-- If you'd like to support IE8 -->
+<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 
 <!-- Icons -->
 <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />

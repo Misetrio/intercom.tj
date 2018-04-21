@@ -189,7 +189,12 @@
                     <hr style="margin:45px 0 35px"/>
 
                     <h2>Отзывы</h2>
-                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                    <video id="my-video" class="mediaPlayer" controls preload="auto" width="640" height="264"
+                           poster="images/reklama.jpg" data-setup="{}">
+                        <source src="video/intercom.ogv" type='video/ogg; codecs="theora, vorbis"'>
+
+                    </video>
+                    <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
                         <source src="video/intercom.mp4" type='video/mp4'>
                         <source src="video/intercom.flv" type='video/flv'>
@@ -202,7 +207,7 @@
                             href="https://www.google.ru/intl/ru/chrome/?brand=CHBD&ds_kid=43700027443936350&gclid=Cj0KCQiAzrTUBRCnARIsAL0mqcwOYveX9r_5k-bAKGJ6ZQLYOwMYWIUwdU7-VL95EVjSHB_E3EUdYzsaArYoEALw_wcB&gclsrc=aw.ds&dclid=CKam-4HOuNkCFRKCGQodovgN7A"
                             target="_blank">Google Chrome</a>
                         или <a href="https://www.mozilla.org/ru/firefox/new/" target="_blank">Mozilla FireFox</a> для
-                        просмотра этого видео.<br>
+                        просмотра этого видео.<br> -->
                         <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
                         <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
                         <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
@@ -226,7 +231,7 @@
 </div>
 
 <?php require_once("footer.php"); ?>
-<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
 
 </body>
 </html>

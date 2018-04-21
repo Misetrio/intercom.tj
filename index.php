@@ -1,6 +1,5 @@
 ﻿<html>
 <head>
-    <meta name="viewport" content="width=divice-width">
     <?php
 
     require_once("header.php"); ?>

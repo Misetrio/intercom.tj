@@ -2,7 +2,8 @@
 <title>Intercom</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Intercom">
-<meta name="author" content="Munira Husinova">  
+<meta name="author" content="Munira Husinova">
+<meta http-equiv='X-UA-Compatible' content='IE=Edge' />
 
 <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">

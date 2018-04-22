@@ -88,7 +88,7 @@
 
 </div>
 
-<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>

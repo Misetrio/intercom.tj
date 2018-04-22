@@ -190,7 +190,7 @@
 
                     <h2>Отзывы</h2>
 
-                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                    <video id="my-video" class="video-js" controls  width="640" height="264"
                            poster="images/reklama.jpg" data-setup="{}">
                         <source src="http://intercom.tj/video/5a6f46b993317.mp4" type='video/mp4'>
                         <p class="vjs-no-js">
@@ -215,7 +215,9 @@
         <div id="footerInnerSeparator"></div>
     </div>
 
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 </div>
+
 
 <?php require_once("footer.php"); ?>
 

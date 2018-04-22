@@ -182,10 +182,11 @@ padding: 10px;
 
 @media only screen and (min-width: 360px) and (max-width: 412px) {
     .mediaPlayer {
-        width: 300px;
-    }
-    #footerArea1 p{
+        width: 170px;
 
+    }
+  #my-video{
+float: left;
 
     }
 
@@ -217,8 +218,14 @@ height: auto;
     margin: 5px 0 5px 15px;
 }
 /* встроенные элементы м-медиа, фреймы */
+
+
+#my-video{
+
+    margin-left: 25%;
+}
 /* адаптивный блок видео */
-.video { 
+.video {
 position: absolute;
 padding-bottom: 56.25%;
 height: 0; 

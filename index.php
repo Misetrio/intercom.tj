@@ -199,10 +199,6 @@
                         </p>
                     </video>
 
-                        <a href="http://77.244.146.133:8980/files/raznoe/Reklama.flv">Скачайте видео</a>
-                        <a style="color: " #3ca05b"; margin-top:0px;" href="http://www.speedtest.net/result/7057184168">
-                        <h3>ТЕСТ СОЕДИНЕНИЯ</h3></a>
-                    </video>
                 </div>
 
                 <!--Акция на Навруз закомментирована<div class="lead">

@@ -183,15 +183,29 @@ padding: 10px;
 @media only screen and (min-width: 360px) and (max-width: 412px) {
     .mediaPlayer {
         width: 170px;
+float: left;
+    }
+    #my-video{
+
 
     }
-  #my-video{
+
+    .my-video-dimensions {
+        width: 310px;
+        height: 264px;
+    }
+
+    .my-video-dimensions.vjs-fluid {
+        padding-top: 56.25%;
+    }
+
+    #my-video{
 float: left;
 
     }
 
     #divSiteTitle img {
-        width: 285px;
+        width: 245px;
         max-width: none;
     }
 }
@@ -222,7 +236,7 @@ height: auto;
 
 #my-video{
 
-    margin-left: 25%;
+   /* margin-left: 25%;*/
 }
 /* адаптивный блок видео */
 .video {

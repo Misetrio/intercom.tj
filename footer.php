@@ -45,6 +45,7 @@
                         <br>Техническая поддержка:<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp221-34-52 / (42)780-00-22
 
                     </li>
+                        <li><a href="viber:+992915217095"><img src="logo_icon_purple_small.png" style="width:40px;height:20px;">+992915217095</a></li>
                     <li>
                         <i class="general foundicon-mail icon"></i>
                         <span class="field">Email:</span>
